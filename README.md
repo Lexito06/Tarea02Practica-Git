@@ -51,7 +51,7 @@ Date:   Mon Jan 15 08:43:14 2024 +0100
 ```
 ### Creación del repositorio en Github
 
-Accedo a mi página **GitHub** y creo el repositorio añadiendo al profesor como colaborador
+Accedo a mi página de **GitHub** y creo el repositorio añadiendo al profesor como colaborador
 
 ![](capturas/creacion_repositorio.png)
 
@@ -59,7 +59,7 @@ Accedo a mi página **GitHub** y creo el repositorio añadiendo al profesor como
 
 ### Añadir el remoto al repositorio local (branch, remote)
 
-Añado el remoto mediante los comandos **git remote**, **git remote -v** y **git branch -v**
+Añado el remoto mediante el comando **git remote**, compruebo que el repositorio esta enlazado correctamente con el comando **git remote -v** y compruebo mi rama master con el comando **git branch -v**
 ```
 maniana@DAMDAW1-XX MINGW64 ~/Desktop/Tarea02Practica-Git (master)
 $ git remote add origin https://github.com/Lexito06/Tarea02Practica-Git.git
@@ -99,4 +99,21 @@ Compruebo que todo esta subido correctamente a mi repositorio de GitHub y compru
 ![](capturas/lista_Commits.png)
 
 ## Publicación en Github Pages
+
+Antes de comenzar con la publicación en **Github Pages**, creo mi carpeta **docs** y dentro creo el archivo index.html (añadiendole algo de contenido para comprobar que la publicación es correcta)
+
+### Configurar el repositorio para que publique el directorio raíz en Github Pages.
+
+Entro en Github y configuro el repositorio para publicar la carpeta **docs** en Github pages
+
+![](capturas/git_pages.png)
+
+### Mostrar los despliegues (deployments).
+
+
+### Mostrar la página web.
+
+
+### Añadir en el primer apartado, Identificación, el enlace a la publicación del sitio web.
+
 
