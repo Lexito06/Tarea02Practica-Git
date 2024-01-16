@@ -4,7 +4,7 @@
 ## Lenguajes de marcas y sistemas de gestión de información
 ## IES Aguadulce
 ## 1º D.A.W
-## (Enlace mas tarde)
+## https://lexito06.github.io/Tarea02Practica-Git/
 
 ### Creación del repositorio en nuestro ordenador (init)
 
@@ -17,7 +17,7 @@ Initialized empty Git repository in C:/Users/maniana/Desktop/Tarea02Practica-Git
 
 ### Creación de un commit inicial (add, status, commit, log)
 
-A continuación añado todo con el comando **git add** y hago el commit con el comando **git commit**. Por otra parte uso el **git status** para comprobar que el commit se haya realizado correctamente y hago el **git log** para comprobar el historial de mis commits utilizados
+A continuación añado todo con el comando **git add** y hago el commit con el comando **git commit**. Por otra parte uso el **git status** para comprobar que el commit se haya realizado correctamente y hago el **git log** para comprobar el historial de mis commits utilizados (en este caso no he usado el comando **git log --oneline** debido a que el log no es muy grande, pero dicho comando es muy util a partir del segundo "commit" utilizado)
 ```
 maniana@DAMDAW1-XX MINGW64 ~/Desktop/Tarea02Practica-Git (master)
 $ git add .
@@ -49,6 +49,9 @@ Date:   Mon Jan 15 08:43:14 2024 +0100
 
     añado documentacion
 ```
+
+Esta primera vez he añadido y usado el commit en los archivos mediante la consola pero a partir de ahora uso la herramienta de **visual studio code** para añadir los archivos nuevos, usar el commit y subirlos. Esta herramienta se situa en el icono arriba a la izquierda llamado "control de código".
+
 ### Creación del repositorio en Github
 
 Accedo a mi página de **GitHub** y creo el repositorio añadiendo al profesor como colaborador
@@ -110,9 +113,17 @@ Entro en Github y configuro el repositorio para publicar la carpeta **docs** en 
 
 ### Mostrar los despliegues (deployments).
 
+A continuación muestro los despliegues comprobando que esta subido correctamente a Github Pages
+
+![](capturas/despliegues1.png)
+
+![](capturas/despliegues2.png)
 
 ### Mostrar la página web.
 
+Muestro la página web para comprobar que el enlace funciona
+
+![](capturas/paginaweb.png)
 
 ### Añadir en el primer apartado, Identificación, el enlace a la publicación del sitio web.
 
