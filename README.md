@@ -74,6 +74,9 @@ $ git branch -v
 * master c9d51aa añado documentacion
 ```
 ### Subir el repositorio a Github (push)
+
+Primero hago añado todos los cambios con el comando "git add" y hago el "git commit" para despues subirlo el repositorio a GitHub haciendo el comando "git push"
+
 ```
 
 ```
