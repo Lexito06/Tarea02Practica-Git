@@ -130,9 +130,14 @@ Realizo un commit mas mediante la herramienta de Visual Studio Code que se encue
 
 ### Subir el repositorio a Github
 
-
+Por ultimo lo doy click en el boton de sincronizar cambios para que se haga el **git push** y se suba todo al repositorio de Github
 
 ### Comprobar que está subido a Github
 
+Abro mi pagina de Github con el repositorio y compruebo que todo esté subido correctamente y se encuentre el mensaje añadido en el anterior commit: "modifico la documentacion otra vez"
+
 ### Ver el listado de commit desde Github
 
+Compruebo el listado de todos los commits realizados durante toda la crecion de esta tarea
+
+![](capturas/mi_lista_commits.png)
