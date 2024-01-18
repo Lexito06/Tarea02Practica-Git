@@ -126,9 +126,13 @@ Muestro la página web para comprobar que el enlace funciona
 ## Uso de Git mediante la interfaz de VSCode:
 ### Creación de otro commit
 
+Realizo un commit mas mediante la herramienta de Visual Studio Code que se encuentra arriba a la izquierda llamada **control de código**, añadiendo los cambios hechos con el boton **+** y confirmando
 
 ### Subir el repositorio a Github
+
+
 
 ### Comprobar que está subido a Github
 
 ### Ver el listado de commit desde Github
+
