@@ -95,11 +95,9 @@ To https://github.com/Lexito06/Tarea02Practica-Git.git
 ```
 ### Comprobar que está subido a Github
 
-Compruebo que todo esta subido correctamente a mi repositorio de GitHub y compruebo la lista de mis commits realizados
+Compruebo que todo esta subido correctamente a mi repositorio de GitHub
 
 ![](capturas/comprobacion.png)
-
-![](capturas/lista_Commits.png)
 
 ## Publicación en Github Pages
 
@@ -125,6 +123,12 @@ Muestro la página web para comprobar que el enlace funciona
 
 ![](capturas/paginaweb.png)
 
-### Añadir en el primer apartado, Identificación, el enlace a la publicación del sitio web.
+## Uso de Git mediante la interfaz de VSCode:
+### Creación de otro commit
 
 
+### Subir el repositorio a Github
+
+### Comprobar que está subido a Github
+
+### Ver el listado de commit desde Github
