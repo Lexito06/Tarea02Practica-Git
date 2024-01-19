@@ -17,7 +17,7 @@ h1 {
 
 .fondo_imagen {
     text-align: center;
-    background-image: url(./img_pagina/bosque.png);
+    background-image: url("./img_pagina/bosque.png");
     background-size: cover;
     height: 953px;
     margin: -8px;
