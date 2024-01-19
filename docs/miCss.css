@@ -1,23 +1,91 @@
-h1{
+/* Algunos de los elementos no los hemos estudiado en clase pero vienen en la fotocopia o me los enseñó mi hermano y aprendi a usarlos mientras hacia la página :D */
+
+body {
+    background-color: rgb(195, 255, 183);
+}
+
+h1 {
+    color: greenyellow;
     text-align: center;
+    background-color: black;
+    padding: 8px;
+    border-radius: 20px;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-top: 0;
+}
+
+
+
+.fondo_imagen {
+    text-align: center;
+    background-image: url(/img_pagina/bosque.png);
+    background-size: cover;
+    height: 953px;
+    margin: -8px;
+}
+
+a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: black;
+    color: greenyellow;
+    transition: 1s;
+}
+
+figure {
+    width: 49%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    margin: 10px auto;
+    vertical-align: top;
+    background-color: greenyellow;
+}
+
+h3 {
+    background-color: black;
+    padding: 3px;
+    color: greenyellow;
+    border-radius: 20px;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+img {
+    width: 200px;
 }
 
 table {
     border-collapse: collapse;
     text-align: center;
-    margin: auto ;
-    width: 300px;
+    margin: auto;
+    width: 70%;
 }
 
-td{
+td {
     border: 1px solid black;
-    padding: 20px 40px 20px 40px;
-    background-color: gray;
+    padding: 20px 20px 20px 20px;
+    background-color: greenyellow;
+    font-size: 19px;
 }
 
-th{
+th {
     padding: 20px 20px 0px;
-    border-top: 5px solid black;
     border-bottom: 5px solid black;
 }
 
@@ -29,22 +97,18 @@ form {
     border-right: 10%;
 }
 
-fieldset{
+fieldset {
     background-color: white;
 }
 
-label{
+label {
     display: inline-block;
     width: 10%;
 }
 
-textarea,input{
-    width: 10%;
-}
-
-.boton{
+.boton {
     text-align: center;
-    width: 20%;
+    width: 28%;
     margin-left: 10%;
     margin-right: 10%;
 }
