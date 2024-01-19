@@ -37,3 +37,14 @@ label{
     display: inline-block;
     width: 10%;
 }
+
+textarea,input{
+    width: 10%;
+}
+
+.boton{
+    text-align: center;
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}

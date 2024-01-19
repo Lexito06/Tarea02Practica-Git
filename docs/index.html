@@ -10,13 +10,13 @@
 
 <body>
     <div class="fondo">
-        <h1>Tienda enda</h1>
-        <a href="">Sección principal</a>
-        <a href="">Sección productos</a>
-        <a href="">Sección información</a>
+        <h1>Mercadona pero mejor</h1>
+        <a href="principal">Sección principal</a>
+        <a href="productos">Sección productos</a>
+        <a href="informacion">Sección información</a>
     </div>
 
-    <h2>Sección principal</h2>
+    <h2 id="principal">Principal</h2>
     <p>Mi empresa esta destinada a la satisfaccion del cliente y lograr que todas las personas sean felices con su palos
         recogidos de los mejores bosques</p>
     <figure>
@@ -50,7 +50,7 @@
         <p></p>
     </figure>
 
-    <h2>Seccion productos</h2>
+    <h2 id="productos">Productos</h2>
 
     <table>
         <caption></caption>
@@ -102,7 +102,7 @@
 
     </table>
 
-    <h2>Sección información</h2>
+    <h2 id="informacion">Información</h2>
     <form action="">
         <fieldset>
             <label for="nombre">Nombre completo:</label>
@@ -124,17 +124,20 @@
                 <option value="">Francés</option>
             </select>
             <br>
-            <label for="">Categoría:</label>
-            <input type="radio" name="opcion" id="normal">
+            <label>Categoría:</label>
+            <input type="checkbox" id="normal">
             <label for="normal">Normal</label>
-            <input type="radio" name="opcion" id="avanzada">
+            <input type="checkbox" id="avanzada">
             <label for="avanzada">Aavanzada</label>
-            <input type="radio" name="opcion" id="especial">
+            <input type="checkbox" id="especial">
             <label for="especial">Especial</label>
             <br>
             <label for="observaciones">Observaciones:</label>
-            <textarea name="observaciones" id="" cols="30" rows="10"></textarea>
+            <textarea name="observaciones" id="" cols="30" rows="5"></textarea>
         </fieldset>
+
+        <input class="boton" type="submit">
+        <input class="boton" type="reset">
 
     </form>
 
