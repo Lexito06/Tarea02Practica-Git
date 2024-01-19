@@ -27,8 +27,8 @@ h1 {
 
 a {
     text-align: center;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    margin-top: 1%;
     background-color: greenyellow;
     padding: 20px;
     border-radius: 20px;
@@ -38,6 +38,7 @@ a {
     font-size: 20px;
     color: black;
     font-weight: bold;
+    width: 20%;
 }
 
 a:hover {
