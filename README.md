@@ -4,7 +4,7 @@
 ## Lenguajes de marcas y sistemas de gestión de información
 ## IES Aguadulce
 ## 1º D.A.W
-## https://lexito06.github.io/Tarea02Practica-Git/
+## ![](https://lexito06.github.io/Tarea02Practica-Git/)
 
 ### Creación del repositorio en nuestro ordenador (init)
 

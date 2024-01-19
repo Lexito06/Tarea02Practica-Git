@@ -20,3 +20,20 @@ th{
     border-top: 5px solid black;
     border-bottom: 5px solid black;
 }
+
+form {
+    border: 2px solid black;
+    background-color: greenyellow;
+    padding: 40px 20px 40px 20px;
+    border-left: 10%;
+    border-right: 10%;
+}
+
+fieldset{
+    background-color: white;
+}
+
+label{
+    display: inline-block;
+    width: 10%;
+}
